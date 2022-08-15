@@ -65,4 +65,5 @@ input[type="button"] {
   width: 40%;
   margin: 1em auto;
   border-color: white;
+  padding-bottom: 20px;
 }
