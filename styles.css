@@ -18,7 +18,6 @@ div {
   font-style: italic;
 }
 form {
-  display: block;
   background-color: rgba(27, 27, 50, 0.8);
   width: 50%;
   margin: 10px auto;
@@ -26,13 +25,17 @@ form {
 }
 input,
 select {
-  display: block;
   width: 100%;
   margin: 10px 0px;
   border: 0;
   padding: 0;
   height: 30px;
   border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 0;
 }
 
 input[type="button"] {
@@ -44,4 +47,22 @@ input[type="button"] {
 
 input[type="button"]:hover {
   opacity: 1;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5rem 0 0.5rem;
+  vertical-align: middle;
+  width: 2.5%;
+}
+
+input[type="button"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  border-color: white;
 }
