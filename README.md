@@ -16,3 +16,6 @@ Text area needs to be bigger --> done
 work on submit button, looks ok... but not good... This needs to be a little smaller and centered: looks ok now
 
 even the submit button now has same border radius as other input options. This needs to be fixed ---> fixed
+
+Pending
+The text of submit button appears to be on the top --> Need to align it to the center of the button
